@@ -1,150 +1,193 @@
-body{
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
-#title{
+#title {
   background-color: #ff4c68;
-
 }
 
-h1{
+h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size:3rem;
+  font-size: 3rem;
   line-height: 1.5;
-  text-align:left;
-  color:white;
-
+  text-align: left;
+  color: white;
 }
 
-h2{
-font-size:3rem;
-line-height: 1.5;
-font-family:'Montserrat-bold', sans-serif;
-font-weight: bold;
-width:78%;
-margin:auto;
-
-}
-.container-fluid{
-  padding:3% 15% 7%;
-
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: bold;
+  width: 78%;
+  margin: auto;
 }
 
-.iphone-img-container{
-position:relative;
+.container-fluid {
+  padding: 3% 15% 7%;
 }
- .iphone-img{
-   transform:rotate(25deg);
-   width:55%;
-   position:absolute;
-   right:25%;
-   top:15px;
- }
 
+.iphone-img-container {
+  position: relative;
+}
 
-.navbar-brand{
+.iphone-img {
+  transform: rotate(25deg);
+  width: 55%;
+  position: absolute;
+  right: 25%;
+  top: 15px;
+}
+
+.navbar-brand {
   font-size: 30px;
   font-weight: bold;
   font-family: 'Ubuntu', sans-serif;
 }
-.features-icons{
-  color:#ef8172;
+
+.features-icons {
+  color: #ef8172;
   margin-bottom: 2%;
 }
-#features{
-  padding:8% 4%;
+
+#features {
+  padding: 8% 4%;
   text-align: center;
   line-height: 1.5;
   background-color: white;
   position: relative;
   z-index: 1;
-
-
-}
-.features-h3{
-font-family:'Montserrat-bold', sans-serif;
 }
 
-.features-p{
-  color:#8f8f8f;
+.features-h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+.features-p {
+  color: #8f8f8f;
   font-size: 0.8rem;
   font-weight: 200;
-  width:62%;
+  width: 62%;
   margin: auto;
 }
- .features-icons:hover{
-   color:#ff4c68;
- }
 
- #testimonials{
-   padding:8% 4% 2% 4%;
-   text-align: center;
-   background-color:#ff4c68;
-   color:white;
- }
-
- .dog-image{
-   border-radius: 50%;
-   width:10%;
-   margin:7% 2%  ;
- }
-
- #press{
-   background-color:#ff4c68;
-   padding-bottom: 3%;
-   text-align: center;
- }
-
- .trust-logos{
-   width:15%;
-   margin:20px 20px 50px;
- }
-.lady-image{
-  border-radius: 50%;
-  width:10%;
-  margin:7% 2%  ;
+.features-icons:hover {
+  color: #ff4c68;
 }
-#pricing{
-  padding:100px;
+
+#testimonials {
+  padding: 8% 4% 2% 4%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.dog-image {
+  border-radius: 50%;
+  width: 10%;
+  margin: 7% 2%;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 3%;
   text-align: center;
 }
-.card-container{
-  margin-top:5%;
+
+.trust-logos {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
-.btn{
+.lady-image {
+  border-radius: 50%;
+  width: 10%;
+  margin: 7% 2%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.card-container {
+  margin-top: 5%;
+}
+
+.btn {
   font-size: 0.9rem;
 }
-.price{
-  margin-bottom:20px;
+
+.price {
+  margin-bottom: 20px;
 }
-.short{
+
+.short {
   margin-top: 20px;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 80px;
+}
+
+.cta-text {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  width: 45%;
+  margin: auto;
+  color: #fff;
+  line-height: 1.5;
+}
+
+#footer{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.copyright{
+  margin-top: 20px;
+  color:#8f8f8f;
 }
 
 @media (max-width:1000px) {
-.iphone-img{
-  position: static;
-  width: 50%;
-  margin-top: 20px;
-  transform:rotate(30deg);
-}
- #title{
-   text-align: center;
- }
- h1{
-   text-align: center;
-   font-size:2rem;
- }
- .testimonial-text{
-   font-size: 1.6rem;
- }
-#pricing{
-  padding:50px 40px;
-}
-.container-fluid{
-  padding:3% 5% 7%;
+  .iphone-img {
+    position: static;
+    width: 50%;
+    margin-top: 20px;
+    transform: rotate(30deg);
+  }
 
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.6rem;
+  }
+
+  #pricing {
+    padding: 50px 40px;
+  }
+
+  .container-fluid {
+    padding: 3% 5% 7%;
+  }
+
+  .cta-text{
+    width:90%;
+    font-size: 1.3rem;
+  }
+#cta{
+  padding:40px
 }
 
 }
